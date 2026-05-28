@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #fff9c4);
+    min-height: 100vh;
+    color: #333;
+}
+
+header {
+    background-color: #1565c0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: #0d47a1;
+    padding: 10px 18px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #42a5f5;
+}
+
+main {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.caixa {
+    background: white;
+    border: 2px solid #1565c0;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 4px 4px 0 #90caf9;
+}
+
+.caixa h2 {
+    color: #1565c0;
+    margin-bottom: 15px;
+}
+
+.caixa p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.lista-contato {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.lista-contato li {
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #1565c0;
+    color: white;
+    font-size: 14px;
+}
